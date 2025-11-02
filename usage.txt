@@ -1,0 +1,17 @@
+# BASIC SCAN
+python scanner.py --target https://example.com
+
+# SCAN WITH AI ANALYSIS
+python scanner.py --target https://example.com --ai
+
+# SCAN WITH CUSTOM OUTPUT FILE
+python scanner.py --target https://example.com --output my_scan_report.json
+
+# SCAN SPECIFIC VULNERABILITIES
+python scanner.py --target https://example.com --scans sql_injection xss
+
+# SCAN WITHOUT CRAWLING (FASTER)
+python scanner.py --target https://example.com --no-crawl
+
+# SCAN WITH AI AND CUSTOM OUTPUT
+python scanner.py --target https://example.com --ai --output detailed_report.json
